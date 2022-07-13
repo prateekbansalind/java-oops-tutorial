@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="10-static-members" />
+        <module name="08-method-overloading" />
+        <module name="getters-and-setters" />
+        <module name="06-coupling-concept" />
+        <module name="07-constructors" />
+        <module name="09-constructor-overloading" />
+        <module name="11-inheritance" />
+        <module name="13-constructor-and-inheritance" />
+        <module name="14-access-modifier" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
