@@ -1,12 +1,18 @@
 package org.pbansal;
 
-public class Calculator implements ITaxCalculator{
+public class Calculator
+        extends AbstractTaxCalculator
+        {
     private double income;
     private double tax;
 
     public Calculator(double income, double tax) {
         this.income = income;
         this.tax = tax;
+    }
+
+    public void doSomething(double income, double expense){
+        saving(income, expense);
     }
 
     @Override
@@ -16,5 +22,5 @@ public class Calculator implements ITaxCalculator{
 
     }
 
-
 }
+
